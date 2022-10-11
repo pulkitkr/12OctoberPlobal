@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Plobal_iOS" parallel="false" thread-count="1">  
+
+
+	<parameter name="browserType" value="Safari"/>
+	<parameter name="InstallBuild" value="no"/>	<!--  testflight/appstore/no  -->
+	
+	<parameter name="runModule" value="Suite" />
+	<parameter name="runMode" value="Suites" />
+	<parameter name="testExecutionKey" value="PP-70" />
+	
+	<parameter name="invalidEmailId" value="abc@gmail.com"></parameter>
+	<parameter name="validEmailId" value="Testmail@mailnesia.com"></parameter>
+	<parameter name="invalidPassword" value="1UB7p90IVxlFRmBv2ig8ag"></parameter>
+	<parameter name="validPassword" value="123456"></parameter>
+	
+	<parameter name="address" value="Edit"></parameter>	
+	<parameter name="deliveryaddress" value="Confirm_Address"></parameter>	
+	<parameter name="barCodeaddress" value="Remove"></parameter>
+	<parameter name="size" value="M"></parameter>
+	
+
+	<listeners>
+		<listener class-name="com.extent.ExtentReporter" />
+	</listeners>
+
+	<test name="iOSPlobal"> 
+		<classes>      
+			 <class name="com.Plobal.iOS_Plobal_Scripts.IOS_Plobal_Test_cases" />
+		</classes>
+	</test>
+</suite>

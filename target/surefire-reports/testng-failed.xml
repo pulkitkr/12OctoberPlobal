@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Plobal_iOS]">
+  <parameter name="address" value="Edit"/>
+  <parameter name="invalidEmailId" value="abc@gmail.com"/>
+  <parameter name="invalidPassword" value="1UB7p90IVxlFRmBv2ig8ag"/>
+  <parameter name="runMode" value="Suites"/>
+  <parameter name="browserType" value="Safari"/>
+  <parameter name="barCodeaddress" value="Remove"/>
+  <parameter name="testExecutionKey" value="PP-70"/>
+  <parameter name="size" value="M"/>
+  <parameter name="InstallBuild" value="no"/>
+  <parameter name="runModule" value="Suite"/>
+  <parameter name="validEmailId" value="Testmail@mailnesia.com"/>
+  <parameter name="validPassword" value="123456"/>
+  <parameter name="deliveryaddress" value="Confirm_Address"/>
+  <listeners>
+    <listener class-name="com.extent.ExtentReporter"/>
+  </listeners>
+  <test name="iOSPlobal">
+    <classes>
+      <class name="com.Plobal.iOS_Plobal_Scripts.IOS_Plobal_Test_cases"/>
+    </classes>
+  </test> <!-- iOSPlobal -->
+  <test name="iOSPlobal(failed)">
+    <classes>
+      <class name="com.Plobal.iOS_Plobal_Scripts.IOS_Plobal_Test_cases">
+        <methods>
+          <include name="plobalSearchProduct"/>
+          <include name="plobalSelectItem"/>
+          <include name="plobalBarCodeSearchProduct"/>
+          <include name="addProductToCart"/>
+          <include name="plobalLogout"/>
+          <include name="plobalDeliveryAddress"/>
+          <include name="init"/>
+          <include name="plobalLogin"/>
+        </methods>
+      </class> <!-- com.Plobal.iOS_Plobal_Scripts.IOS_Plobal_Test_cases -->
+    </classes>
+  </test> <!-- iOSPlobal(failed) -->
+</suite> <!-- Failed suite [Plobal_iOS] -->

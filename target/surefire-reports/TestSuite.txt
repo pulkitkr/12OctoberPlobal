@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 7, Errors: 0, Skipped: 9, Time elapsed: 15.438 s <<< FAILURE! - in TestSuite
+plobalLogin(com.Plobal.iOS_Plobal_Scripts.IOS_Plobal_Test_cases)  Time elapsed: 0.305 s  <<< FAILURE!
+java.lang.IllegalArgumentException: nodeName cannot be null or empty
+
+plobalSelectItem(com.Plobal.iOS_Plobal_Scripts.IOS_Plobal_Test_cases)  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.IllegalArgumentException: nodeName cannot be null or empty
+
+addProductToCart(com.Plobal.iOS_Plobal_Scripts.IOS_Plobal_Test_cases)  Time elapsed: 0.019 s  <<< FAILURE!
+java.lang.IllegalArgumentException: nodeName cannot be null or empty
+
+plobalDeliveryAddress(com.Plobal.iOS_Plobal_Scripts.IOS_Plobal_Test_cases)  Time elapsed: 0.019 s  <<< FAILURE!
+java.lang.IllegalArgumentException: nodeName cannot be null or empty
+
+plobalSearchProduct(com.Plobal.iOS_Plobal_Scripts.IOS_Plobal_Test_cases)  Time elapsed: 0.018 s  <<< FAILURE!
+java.lang.IllegalArgumentException: nodeName cannot be null or empty
+
+plobalBarCodeSearchProduct(com.Plobal.iOS_Plobal_Scripts.IOS_Plobal_Test_cases)  Time elapsed: 0.021 s  <<< FAILURE!
+java.lang.IllegalArgumentException: nodeName cannot be null or empty
+
+plobalLogout(com.Plobal.iOS_Plobal_Scripts.IOS_Plobal_Test_cases)  Time elapsed: 0.021 s  <<< FAILURE!
+java.lang.IllegalArgumentException: nodeName cannot be null or empty
+

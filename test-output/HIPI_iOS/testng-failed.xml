@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [HIPI_iOS]">
+  <parameter name="GSavevalidNo" value="9010000105"/>
+  <parameter name="invalidNo" value="9999999999"/>
+  <parameter name="validNo" value="9664087954"/>
+  <parameter name="InstallBuild" value="no"/>
+  <parameter name="runModule" value="Suite"/>
+  <parameter name="validOTP" value="000000"/>
+  <parameter name="amt" value="1.00"/>
+  <parameter name="invalidOTP" value="000001"/>
+  <parameter name="runMode" value="Suites"/>
+  <parameter name="browserType" value="Safari"/>
+  <listeners>
+    <listener class-name="com.extent.ExtentReporter"/>
+  </listeners>
+  <test name="iOSGCash">
+    <classes>
+      <class name="com.GCash.iOS_GCash_Scripts.IOS_GCash_Test_cases"/>
+    </classes>
+  </test> <!-- iOSGCash -->
+</suite> <!-- Failed suite [HIPI_iOS] -->

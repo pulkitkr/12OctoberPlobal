@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [GCash_iOS]">
+  <parameter name="barCodeaddress" value="Remove"/>
+  <parameter name="testExecutionKey" value="PP-49"/>
+  <parameter name="address" value="Edit"/>
+  <parameter name="InstallBuild" value="no"/>
+  <parameter name="runModule" value="Suite"/>
+  <parameter name="deliveryaddress" value="Confirm_Address"/>
+  <parameter name="runMode" value="Suites"/>
+  <parameter name="browserType" value="Safari"/>
+  <listeners>
+    <listener class-name="com.extent.ExtentReporter"/>
+  </listeners>
+  <test name="iOSGCash">
+    <classes>
+      <class name="com.GCash.iOS_GCash_Scripts.IOS_GCash_Test_cases"/>
+    </classes>
+  </test> <!-- iOSGCash -->
+</suite> <!-- Failed suite [GCash_iOS] -->
