@@ -47,7 +47,7 @@ public class PlobalLoginPage {
 	}
 
 	// HomePage Tab
-	public static By objHomePageTab = By.xpath("(//*[@class='UIACollectionView' and (./preceding-sibling::* | ./following-sibling::*)[@class='UIAView' and ./*[./*[@class='UIAView']]]]/*[@id='24'])[1]");
+	public static By objHomePageTab = By.xpath("(//*[@class='UIACollectionView']/*[@text='24'])[1]");
 
 	// Allow to take pictures popup
 	public static By objAllowPopup = By

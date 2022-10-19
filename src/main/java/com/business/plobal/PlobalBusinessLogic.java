@@ -202,6 +202,7 @@ public class PlobalBusinessLogic extends Utilities {
 			click(PlobalLoginPage.objLoginButton, "Login Button");
 			verifyIsElementDisplayed(PlobalLoginPage.objusercreated("Testmail@mailnesia.com"),
 					"User Logged in by " + userName + "");
+			waitTime(2000);
 			click(PlobalLoginPage.objHomePageTab, "Home Page Tab");
 
 			logger.info("Navigated Search Product Page");
